@@ -29,11 +29,12 @@
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="#banner">Home</a></li>
-											<li><a href="#one">About Me</a></li>
-											<li><a href="#two">Skills</a></li>
-											<li><a href="#three">Projects</a></li>
-											<li><a href="#four">Connect</a></li>
+											<li><a id="menu-link" href="#banner"><span class="icon solid fa-home">&nbsp;&nbsp;Home</span></a></li>
+											<li><a id="menu-link" href="#one"><span class="icon solid fa-user">&nbsp;&nbsp;About Me</span></a></li>
+											<li><a id="menu-link" href="#two"><span class="icon solid fa-cogs">&nbsp;&nbsp;Skills</span></a></li>
+											<li><a id="menu-link" href="#three"><span class="icon solid fa-th">&nbsp;&nbsp;Projects</span></a></li>
+											<li><a id="menu-link" href="#four"><span class="icon solid fa-handshake">&nbsp;&nbsp;Connect</span></a></li>
+											<li><a id="menu-link" href="#five"><span class="icon solid fa-envelope">&nbsp;&nbsp;Contact</span></a></li>
 										</ul>
 									</div>
 								</li>
@@ -131,6 +132,10 @@
 						<div class="content">
 							<h3>Dripcamp</h3>
 							<p>Dripcamp is a full-stack clone of Hipcamp, a campground booking site similar to AirBnB</p>
+							<div class="site-links">
+								<a href="https://dripcamp.herokuapp.com" target="_blank">Dripcamp Live</a>
+								<a href="https://github.com/ernestman/dripcamp" target="_blank">Github Repo</a>
+							</div>
 						</div>
 					</section>
 					<section class="spotlight">
@@ -139,7 +144,12 @@
 							<h3>NeuroDB</h3>
 							<p>NeuroDB is a database tool that helps researchers studying intracranial Electrocorticography (ECoG)
 								efficiently manage patient
-								meta-data and research-related information</p>
+								meta-data and research-related information
+							</p>
+							<div class="site-links">
+								<a href="https://neurodb.herokuapp.com" target="_blank">NeuroDB Live</a>
+								<a href="https://github.com/aliashafi/neuroDB" target="_blank">Github Repo</a>
+							</div>
 						</div>
 					</section>
 					<section class="spotlight">
@@ -147,7 +157,12 @@
 						<div class="content">
 							<h3>Baby Patricks</h3>
 							<p>Baby Patricks is a 3D environment designed for users to explore Bikini Bottom and roam through a school
-								of baby Patricks</p>
+								of baby Patricks
+							</p>
+							<div class="site-links">
+								<a href="https://ernestman.github.io/BabyPatricks" target="_blank">Baby Patricks Live</a>
+								<a href="https://github.com/ernestman/BabyPatricks" target="_blank">Github Repo</a>
+							</div>
 						</div>
 					</section>
 				</section>
@@ -176,6 +191,28 @@
 					</div>
 				</section>
 
+				<!-- Five -->
+				<section id="five" class="wrapper style1 special">
+					<div class="inner">
+						<header class="major">
+							<h2>Contact Me</h2>
+							<form method="post" action="https://formspree.io/xbjjqlwr" method="POST">
+								<div class="row">
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="_replyto" placeholder="Email" /></div>
+									<div class="col-12">
+										<textarea rows="10" name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<input type="submit" value="Send" />
+									</div>
+								</div>
+							</form>
+						</header>
+				
+					</div>
+				</section>
+
 				<!-- CTA -->
 					<!-- <section id="cta" class="wrapper style4">
 						<div class="inner">
@@ -193,6 +230,7 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="icons">
+							<li>Ernie Man</li>
 							<li><a href="https://linkedin.com/in/ernestman" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
 							<li><a href="https://github.com/ernestman" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
 							<li><a href="https://angel.co/ernestman" class="icon brands fa-angellist" target="_blank"><span class="label">AngelList</span></a></li>

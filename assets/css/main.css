@@ -2421,7 +2421,7 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 3px;
 		border: 0;
-		box-shadow: inset 0 0 0 2px #fff;
+		/* box-shadow: inset 0 0 0 2px #fff; */
 		color: #fff;
 		cursor: pointer;
 		display: inline-block;
@@ -2953,8 +2953,10 @@ input, select, textarea {
 			.wrapper.style1 input[type="button"],
 			.wrapper.style1 button,
 			.wrapper.style1 .button {
-				box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.125);
+				/* box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.125); */
+				background-color: #505393;
 				color: #ffffff;
+				border: 0;
 			}
 
 				.wrapper.style1 input[type="submit"]:hover,
@@ -2962,7 +2964,7 @@ input, select, textarea {
 				.wrapper.style1 input[type="button"]:hover,
 				.wrapper.style1 button:hover,
 				.wrapper.style1 .button:hover {
-					background-color: rgba(255, 255, 255, 0.075);
+					background-color: #8588c6;
 				}
 
 				.wrapper.style1 input[type="submit"]:active,
@@ -2970,7 +2972,7 @@ input, select, textarea {
 				.wrapper.style1 input[type="button"]:active,
 				.wrapper.style1 button:active,
 				.wrapper.style1 .button:active {
-					background-color: rgba(255, 255, 255, 0.2);
+					background-color: #8588c6;
 				}
 
 			@media screen and (max-width: 736px) {
@@ -4015,6 +4017,15 @@ header.major h4 {
 	border-bottom: none;
 }
 
+#menu-link {
+	transition: transform 0.25s ease-out;
+}
+
+#menu-link:hover {
+	color: #8ebebc;
+	transform: translateX(26px);
+}
+
 #banner h2 {
 	font-size: 50px;
 	letter-spacing: 0.05em;
@@ -4086,4 +4097,23 @@ header.major h4 {
 	display: flex;
 	justify-content: space-around;
 	width: 50%;
+}
+
+.site-links {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.site-links a {
+	border-bottom: 1px solid transparent;
+}
+
+.site-links a:hover {
+	border-bottom: 1px solid #8ebebc;
+	color: #8ebebc;
+}
+
+.col-12 {
+	margin: 50px 0;
 }
